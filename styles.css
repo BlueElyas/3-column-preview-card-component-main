@@ -7,6 +7,7 @@ body {
     font-family: 'Lexend Deca', sans-serif;
     font-size: 15px;
     box-sizing: border-box;
+    background-color: hsl(0, 0%, 95%);
 }
 
 /*  Containers */
@@ -27,6 +28,7 @@ body {
     font-family: 'Big Shoulders Display', cursive;
     text-transform: uppercase;
     font-size: 2.3rem;
+    color: hsl(0, 0%, 95%);
 }
 
 .container p {
@@ -40,7 +42,7 @@ body {
 
 /* Button design */
 .btn {
-    background-color: white;
+    background-color: hsl(0, 0%, 95%);
     border: none;
     padding: 1em 2em;
     border-radius: 50px;
