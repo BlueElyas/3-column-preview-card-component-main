@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+/*  Containers */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2.8em;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 2.5em 2em;
+    margin: 0 1.5em;
+}
+
+/* Section design */
+
+.container h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    font-size: 2.3rem;
+}
+
+.container p {
+    line-height: 2;
+}
+
+/* Backgrounds */
+.sedans { background-color: hsl(31, 77%, 52%);}
+.suvs {background-color: hsl(184, 100%, 22%);}
+.luxury {background-color: hsl(179, 100%, 13%);}
+
+/* Button design */
+.btn {
+    background: hsla(0, 0%, 100%, 0.75);
+    color: hsla(0, 0%, 100%, 0.75);
+    border: none;
+    padding: 1em 2em;
+    border-radius: 50px;
+    font-family: inherit;
+    margin-top: -1em;
+}
+
+/* Media query */
+@media (min-width: 650px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 300px);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 100%;
+    }
+    .container {
+        margin-left: 0;
+        margin-right: 0;
+        height: 100%;
+    }
+    .attribution {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+}
+
+/* Attribution style */
+.attribution {
+    text-align: center;
+}
