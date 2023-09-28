@@ -84,6 +84,9 @@ body {
         left: 0;
         right: 0;
     }
+    .luxury button {
+        margin-top: 1em;
+    }
 
 }
 
